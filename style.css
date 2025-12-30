@@ -8,13 +8,8 @@ body {
 .hero {
     background:
         linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-        url("images/hero.jpg") center center / cover no-repeat;
+        url("images/hero.jpg") center center / contain no-repeat;
     height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
 }
 
 .hero-content h1 {
@@ -116,5 +111,6 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
 
 
